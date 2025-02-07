@@ -4,6 +4,6 @@ int main(void)
 {
   printf("hello\n");
   printf("good night\n");
-  printf("good evening\n");
+  printf("good morning\n");
   return 0;
 }
