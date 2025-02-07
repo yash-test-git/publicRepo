@@ -21,7 +21,7 @@ jobs:
     needs: build
     
     steps:
-     -name: test
-      run: echo "hello test done"
+    - name: test
+      run: echo "hello how are you?"
        
 
