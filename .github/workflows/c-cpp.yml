@@ -29,5 +29,14 @@ jobs:
     steps:
     - name: test
       run: echo "hello how are you?"
+
+  Deployment:
+    runs-on: ubuntu-latest
+    needs: test
+    environment: dev-test
+    
+    steps:
+    - name: test
+      run: echo "this is deployment environment"
        
 
