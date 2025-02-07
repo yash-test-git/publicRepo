@@ -20,7 +20,7 @@ jobs:
       uses: actions/upload-artifact@v4.6.0
       with:
        name: Build-Artifact
-       path: ${{github.workspace}}
+       path: ${{github.workspace}}/a.out
        
   test:
     runs-on: ubuntu-latest
